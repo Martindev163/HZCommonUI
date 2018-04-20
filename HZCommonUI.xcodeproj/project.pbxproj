@@ -13,6 +13,7 @@
 		23E2B5522089852400B3216A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E2B5512089852400B3216A /* Assets.xcassets */; };
 		23E2B5552089852400B3216A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E2B5532089852400B3216A /* LaunchScreen.storyboard */; };
 		23E2B5582089852400B3216A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E2B5572089852400B3216A /* main.m */; };
+		23E2B5652089986B00B3216A /* CommonUIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E2B5642089986B00B3216A /* CommonUIVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		23E2B5542089852400B3216A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23E2B5562089852400B3216A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23E2B5572089852400B3216A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23E2B5632089986B00B3216A /* CommonUIVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUIVC.h; sourceTree = "<group>"; };
+		23E2B5642089986B00B3216A /* CommonUIVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonUIVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		23E2B5472089852300B3216A /* HZCommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				23E2B5622089985800B3216A /* HZCommonUI */,
 				23E2B5482089852300B3216A /* AppDelegate.h */,
 				23E2B5492089852300B3216A /* AppDelegate.m */,
 				23E2B54B2089852300B3216A /* ViewController.h */,
@@ -67,6 +71,15 @@
 				23E2B5532089852400B3216A /* LaunchScreen.storyboard */,
 				23E2B5562089852400B3216A /* Info.plist */,
 				23E2B5572089852400B3216A /* main.m */,
+			);
+			path = HZCommonUI;
+			sourceTree = "<group>";
+		};
+		23E2B5622089985800B3216A /* HZCommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				23E2B5632089986B00B3216A /* CommonUIVC.h */,
+				23E2B5642089986B00B3216A /* CommonUIVC.m */,
 			);
 			path = HZCommonUI;
 			sourceTree = "<group>";
@@ -144,6 +157,7 @@
 				23E2B54D2089852300B3216A /* ViewController.m in Sources */,
 				23E2B5582089852400B3216A /* main.m in Sources */,
 				23E2B54A2089852300B3216A /* AppDelegate.m in Sources */,
+				23E2B5652089986B00B3216A /* CommonUIVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
